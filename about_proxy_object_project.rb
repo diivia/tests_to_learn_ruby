@@ -15,7 +15,23 @@ require File.expand_path(File.dirname(__FILE__) + '/neo')
 class Proxy
   def initialize(target_object)
     @object = target_object
+    @messages = []
     # ADD MORE CODE HERE
+  end
+
+  attr_reader :messages
+
+  def method_missing(method, *args, &block)
+    @messages << method
+    @object.send(method, *args, &block)
+  end
+
+  def called?(method)
+    @messages.include?(method)
+  end
+
+  def number_of_times_called(method)
+    @messages.select { |m| m == method }.size
   end
 
   # WRITE CODE HERE
