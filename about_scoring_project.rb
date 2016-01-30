@@ -36,15 +36,24 @@ def score(dice)
   numbers_hash = dice.each_with_object(Hash.new(0)) { |number,counts| counts[number] += 1 }
   sum = []
   numbers_hash.each do |key, value|
-    sum<<1000+(100*(value-3)) if key==1 && value>3
-    sum<<500+(50*(value-3)) if key==5 && value>3
-    sum<<1000 if key==1 && value==3
-    sum<<key*100 if key!=1 && value==3
-    sum<<value*50 if key==5 && value<3
-    sum<<value*100 if key==1 && value<3
+    if key==1
+      sum<<1000+(100*(value-3)) if value>=3
+      sum<<value*100 if value<3
+    end
+
+    if key!=1
+      sum<<key*100 if value==3
+    end
+
+    if key==5
+      sum<<500+(50*(value-3)) if value>3
+      sum<<value*50 if value<3
+    end
   end
+
   total = 0
   sum.each{|number| total = total + number}
+
   return total
 end
 
