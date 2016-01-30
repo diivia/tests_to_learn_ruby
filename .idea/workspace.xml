@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea42751f-b993-4379-a790-0bad5f11949e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.path_progress" afterPath="$PROJECT_DIR$/.path_progress" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_class_methods.rb" afterPath="$PROJECT_DIR$/about_class_methods.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about_message_passing.rb" afterPath="$PROJECT_DIR$/about_message_passing.rb" />
     </list>
     <ignored path="koans.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,11 +52,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about_class_methods.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about_class_methods.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about_class_methods.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6696035">
-              <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about_message_passing.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/about_message_passing.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.70264316">
+              <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -97,6 +107,7 @@
         <option value="$PROJECT_DIR$/about_modules.rb" />
         <option value="$PROJECT_DIR$/about_scope.rb" />
         <option value="$PROJECT_DIR$/about_class_methods.rb" />
+        <option value="$PROJECT_DIR$/about_message_passing.rb" />
       </list>
     </option>
   </component>
@@ -422,7 +433,7 @@
     <frame x="14" y="31" width="1342" height="786" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26153848" sideWeight="0.49173555" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.49173555" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33055556" sideWeight="0.5030769" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -695,14 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/about_message_passing.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.2197802">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="4.0241756">
@@ -793,8 +796,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/about_class_methods.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6696035">
-          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about_message_passing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.70264316">
+          <caret line="181" column="22" selection-start-line="181" selection-start-column="22" selection-end-line="181" selection-end-column="22" />
           <folding />
         </state>
       </provider>
