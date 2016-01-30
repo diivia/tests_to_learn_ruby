@@ -21,9 +21,9 @@ class Proxy
 
   attr_reader :messages
 
-  def method_missing(method, *args, &block)
-    @messages << method
-    @object.send(method, *args, &block)
+  def method_missing(sym, *args, &block)
+    @messages << sym
+    @object.send(sym, *args, &block)
   end
 
   def called?(method)
